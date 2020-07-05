@@ -66,6 +66,7 @@ function setCurrentdate () {
   const required = document.querySelector(`[data-date="${currDate} ${months[month]}"]`)
   required.scrollIntoView()
   required.parentNode.style.opacity = 1
+  required.parentNode.style.pointerEvents = 'all'
 }
 
 function checkTracker () {
