@@ -1,0 +1,70 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 15px;
+}
+
+.date-wrapper {
+  opacity: 0.1;
+}
+
+.date {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #212121;
+  border-radius: 12px;
+}
+
+.breakfast {
+  background-color: #6708b587;
+}
+  
+
+.lunch {
+  background-color: #08b1b587;
+}
+
+.dinner {
+  background-color: #308e0587;
+}
+
+.breakfast, .lunch, .dinner {
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.med-div {
+  margin-bottom: 3px;
+  display: flex;
+}
+
+input {
+  margin-right: 6px;
+  height: 18px;
+  width: 18px;
+}
+
+.display-date {
+  display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
